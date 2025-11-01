@@ -1,7 +1,7 @@
 # pyports
 Simple python program to scan a host, identifying any open ports. 
 
-![alt text](image.png)
+![alt text](screenshots/image.png)
 
 # TODO: 
     - logic to scan specific ports
