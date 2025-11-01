@@ -5,7 +5,7 @@ import argparse
 async def tcp_port_scan(ip: str, port: int, timeout: float = 1.0) -> None:
         conn = asyncio.open_connection(ip, port) 
         try:
-            reader, writer = await asyncio.wait_for(conn, timeout=timeout)
+            _, writer = await asyncio.wait_for(conn, timeout=timeout)
             print(f"Open Port: {port}")
             writer.close()
             await writer.wait_closed()
