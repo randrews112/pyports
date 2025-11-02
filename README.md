@@ -9,3 +9,4 @@ Simple python program to scan a host, identifying any open ports.
     - save results to text file to feed to nmap: open-ports.txt
     - add functions to determine service details? 
     - make a C2 and incorporate the scanner as a module? 
+    - logic for firewalls and filtered responses? 
