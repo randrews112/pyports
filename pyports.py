@@ -51,18 +51,3 @@ async def main() -> None:
 
 if __name__ == '__main__':
     asyncio.run(main())
-
-#############################################
-# this feels super slow still, 
-# why am I garbage at this, 
-# programming is the devil!
-#############################################
-
-# TODO:
-    # figure out a faster way to scan (Win 11 25H2 only getting 9000)
-    # add the option to scan specific ports, not all TCP
-    # preset scan option for AD DCs
-    # save results to text file
-    # udp? 
-    # service details? 
-    # since you have no job, make a c2py and add it as a module for identifying new hosts/services when latmoving?  
